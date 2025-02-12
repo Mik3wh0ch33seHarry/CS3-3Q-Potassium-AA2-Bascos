@@ -8,12 +8,12 @@
          let finalPopulation = Math.round(initialPopulation* Math.pow(Math.E, (rateOfgrowth * timeOfhours)));
          
          let location = propmt('Enter location of the monster: ');
-         let monsterName = propmt(' Enter monster name: ');
+         let monster = propmt(' Enter monster name: ');
 
-         let monsterNameAndlocation = location.concat("",monsterName).toUpperCase();
+         let monsterAndlocation = location.concat(" ",monsterName).toUpperCase();
 
          
-         document.getElementById("result").innerHTML=" After " + timeHours + "hour/s, the population of " + nameAndlocation + "has risend to " + finalPopulation; 
+         document.getElementById("result").innerHTML=" After " + timeOfHours + "hour/s, the population of " + monsterAndlocation + "has risend to " + finalPopulation; 
       
       }
      
