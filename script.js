@@ -13,7 +13,7 @@
          let monsterAndlocation = location.concat("", monster).toUpperCase();
 
          
-         document.getElementById("result").innerHTML=" After " + timeHours + "hour/s, the population of " + monsterAndlocation + "has risend to " + finalPopulation; 
+         document.getElementById("result").innerHTML=" After " + timeOfhours + "hour/s, the population of " + monsterAndlocation + "has risend to " + finalPopulation; 
       
       }
      
