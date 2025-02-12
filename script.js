@@ -7,8 +7,8 @@
          
          let finalPopulation = Math.round(initialPopulation* Math.pow(Math.E, (rateOfgrowth * timeOfhours)));
          
-         let location = propmt('Enter location of the monster: ');
-         let monster = propmt(' Enter monster name: ');
+         let location = prompt('Enter location of the monster: ');
+         let monster = prompt(' Enter monster name: ');
 
          let monsterAndlocation = location.concat("", monster).toUpperCase();
 
